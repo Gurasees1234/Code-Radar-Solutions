@@ -2,12 +2,9 @@
 int main() {
     char ch;
     ch1=toupper(ch)
-    switch(){
-        case "A":case "E":case "I":case "O":case "U"{
-            printf("Vowel")
-        }
-        
-    }
-    printf("%s", welcome());
+    if (isalpha(ch)){ch=tolower(ch);if(ch=='a'||ch=='e'||ch=='i'||ch='o'||ch='u'){printf("Vowel")}
+    else{printf("Consonant");}}
+    else if (isdigit(ch)){printf("Digit")}
+    else{printf("Special Character");}
     return 0;
 }
