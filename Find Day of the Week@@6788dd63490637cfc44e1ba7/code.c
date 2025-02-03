@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a;
-    switch(a){
+    switch (a){
         case 1:
         printf("Monday");
         break;
@@ -23,6 +23,8 @@ int main() {
         case 7:
         printf("Sunday");
         break;
+        default:
+        printf("Invaid");
     }
     return 0;
 }
