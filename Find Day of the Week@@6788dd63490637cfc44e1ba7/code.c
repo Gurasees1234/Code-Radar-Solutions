@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int a;
+    scanf("%d",&a);
     switch (a){
         case 1:
         printf("Monday");
@@ -24,7 +25,7 @@ int main() {
         printf("Sunday");
         break;
         default:
-        printf("Invaid");
+        printf("Invalid");
     }
     return 0;
 }
