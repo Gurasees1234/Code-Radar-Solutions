@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a,sum=0,i;
+    int a,sum=0,i=0;
     scanf("%d",&a);
-    for(i=1;i<=a;i++){sum+=i;}
+    while(i<=a){sum+=i;i++;}
     printf("%d",sum);
     return 0;
 }
