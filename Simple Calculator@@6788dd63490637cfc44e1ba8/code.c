@@ -4,10 +4,10 @@ int main() {
     scanf("%d %d",&a,&b);
     char c;
     scanf("%c",&c);
-    if (c=='+'){printf("%d",a+b);}
-    else if(c=='-'){printf("%d",a-b);}
-    else if(c=='*'){printf("%d",a*b);}
-    else if(c=='/'){printf("%d",a/b);}
+    if (c== '+'){printf("%d",a+b);}
+    else if(c== '-'){printf("%d",a-b);}
+    else if(c== '*'){printf("%d",a*b);}
+    else if(c== '/'){printf("%d",a/b);}
     else{printf("Error");}
     return 0;
 }
