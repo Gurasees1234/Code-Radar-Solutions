@@ -14,7 +14,8 @@ void alternating_triangle(int n) {
 }
 
 int main() {
-    int n = 5;
+    int n ;
+    scanf("%d",&n);
     alternating_triangle(n);
     return 0;
 }
