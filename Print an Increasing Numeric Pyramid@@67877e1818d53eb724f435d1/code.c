@@ -12,7 +12,8 @@ void increasing_numeric_pyramid(int n) {
     }
 }
 int main() {
-    int n = 5;
+    int n;
+    scanf("%d",&n);
     increasing_numeric_pyramid(n);
     return 0;
 }
