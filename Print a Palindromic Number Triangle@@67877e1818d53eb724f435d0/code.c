@@ -11,7 +11,7 @@ void palindromic_triangle(int n) {
         }
         printf("\n");
     }}
-}
+
 int main() {
     int n ;
     scanf("%d",&n) ;
