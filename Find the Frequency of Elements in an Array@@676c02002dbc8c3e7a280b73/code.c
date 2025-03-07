@@ -7,9 +7,11 @@ int main() {
         scanf("%d", &num);
         freq[num]++;
     }
-    for (int i = 0; i < 1000; i++) {
-        if (freq[i] > 0) {
-            printf("%d %d\n", i, freq[i]);
+    for (int i = 0; i < n; i++) {
+        num = unique[i];
+        if (freq[num] > 0) {
+            printf("%d %d\n", num, freq[num]);
+            freq[num] = 0;
         }
     }
     return 0;
