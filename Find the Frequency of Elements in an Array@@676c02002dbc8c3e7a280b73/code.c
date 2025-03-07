@@ -16,6 +16,6 @@ int main() {
         if (freq[num] > 0) {
             printf("%d %d\n", num, freq[num]);
             freq[num] = 0;
-    }
+    }}
     return 0;
 }
