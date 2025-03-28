@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(){
-    int n,a,arr[100],sum;
+    int n,arr[100],sum;
     scanf("%d",&n);
     for (int i=0;i<n;i++){
-        scanf("%d",&a);
-        arr[i]=a;
+        scanf("%d",&arr[i]);
     }
     scanf("%d",&sum);
     for (int j=n;j<0;j--){
