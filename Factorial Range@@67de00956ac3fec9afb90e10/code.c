@@ -6,4 +6,5 @@ void factorialRange(int a,int b){
         }
         printf("%d",j);
     }
+    printf("\n");
 }
