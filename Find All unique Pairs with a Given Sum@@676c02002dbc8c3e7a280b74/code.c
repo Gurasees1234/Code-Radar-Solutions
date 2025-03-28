@@ -7,8 +7,8 @@ int main(){
         arr[i]=a;
     }
     scanf("%d",&sum);
-    for (j=n;j<0;j--){
-        for (k=n-1;k<0;k--){
+    for (int j=n;j<0;j--){
+        for (int k=n-1;k<0;k--){
             if (j+k==sum){
                 printf("%d %d",j,k);
             }
