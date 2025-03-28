@@ -6,8 +6,9 @@ void factorialRange(int a,int b){
         printf("Invalid range");
     }
     else{
-    int i,j,fact=1;
+    int i,j,fact;
     for (i=a;i<=b;i++){
+        fact=1;
         for (j=i;j>0;j--){
             fact*=j;
         }
