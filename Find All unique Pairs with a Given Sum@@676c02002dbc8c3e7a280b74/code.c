@@ -6,8 +6,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&sum);
-    for (int j=n;j>=0;j--){
-        for (int k=n;k>=0;k--){
+    for (int j=0;j<n;j--){
+        for (int k=0;k<n;k--){
             if (arr[j]+arr[k]==sum){
                 printf("%d %d\n",arr[j],arr[k]);
             }
