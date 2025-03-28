@@ -11,7 +11,6 @@ void factorialRange(int a,int b){
         for (j=i;j>0;j--){
             fact*=j;
         }
-        printf("%d",fact);
+        printf("%d\n",fact);
     }
-    printf("\n");}
 }
