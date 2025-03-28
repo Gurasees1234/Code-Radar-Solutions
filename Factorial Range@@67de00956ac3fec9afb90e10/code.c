@@ -2,7 +2,7 @@ void factorialRange(int a,int b){
     if (a>b){
         printf("Invalid range");
     }
-    else if((a||b)<0){
+    else if((a|b)<0){
         printf("Invalid range");
     }
     else{
