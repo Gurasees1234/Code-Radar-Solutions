@@ -10,7 +10,7 @@ int main(){
     for (int j=n;j<0;j--){
         for (int k=n-1;k<0;k--){
             if (arr[j]+arr[k]==sum){
-                printf("%d %d",j,k);
+                printf("%d %d",arr[j],arr[k]);
             }
         }
     }
