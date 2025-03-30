@@ -1,18 +1,14 @@
 #include <stdio.h>
 void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n-1; i++) {
-        int swapped = 0;
-        for (int j = 0; j < n-i-1; j++) {
-            if (arr[j] > arr[j+1]) {
-                int temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
-                swapped = 1;
+     for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (arr[i] > arr[j]) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
-        if (swapped == 0) {
-            break;
-        }}}
+    }
 void printArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         printf("%d ", arr[i]);
