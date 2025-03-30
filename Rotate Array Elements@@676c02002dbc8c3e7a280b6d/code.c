@@ -6,10 +6,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&a);
-    for (int i=a;i<=n;i++){
-        printf("%d\n",arr[i]);
+    for (int j=a;j<=n;j++){
+        printf("%d\n",arr[j]);
     }
-    for (int i=0;i<a;i++){
-        printf("%d\n",arr[i]);
+    for (int k=0;k<a;i++){
+        printf("%d\n",arr[k]);
     }
 }
