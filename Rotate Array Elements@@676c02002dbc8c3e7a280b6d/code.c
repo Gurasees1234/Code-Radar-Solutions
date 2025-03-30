@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main(){
     int n,arr[n],a;
     scanf("%d",&n);
