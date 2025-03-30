@@ -1,15 +1,19 @@
 #include <stdio.h>
+void leftShiftArray(int arr[], int n, int a){
+    a = a % n;
+    int temp[a];
+    for(int i = 0; i < a; i++) temp[i] = arr[i];
+    for(int i = 0; i < n - a; i++) arr[i] = arr[i + a];
+    for(int i = 0; i < a; i++) arr[n - a + i] = temp[i];
+}
 int main(){
-    int n,arr[100],a;
-    scanf("%d",&n);
-    for (int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
-    scanf("%d",&a);
-    for (int j=a;j<n;j++){
-        printf("%d\n",arr[j]);
-    }
-    for (int k=0;k<a;k++){
-        printf("%d\n",arr[k]);
-    }
+    int n, a;
+    scanf("%d", &n);
+    int arr[n];
+    for(int i = 0; i < n; i++) scanf("%d", &arr[i]);
+    scanf("%d", &a);
+    leftShiftArray(arr, n, a);
+    for(int i = 0; i < n; i++) printf("%d ", arr[i]);
+    printf("\n");
+    return 0;
 }
