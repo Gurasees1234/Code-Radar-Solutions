@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char n[];
+    char n[100];
     int count=0;
     scanf("%s",&n);
     for (i=0;i< lenstr(n);i++){
