@@ -8,6 +8,6 @@ int main(){
         if (n[i]=='a','e','i','o','u','A','E','I','O','U'){
             count+=1;
         }
+        printf("%d",count);
     }
-    printf("%d",count);
 }
