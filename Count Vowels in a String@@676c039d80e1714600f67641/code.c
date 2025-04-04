@@ -5,7 +5,7 @@ int main(){
     int count=0;
     scanf("%s",&n);
     for (int i=0;i< lenstr(n);i++){
-        if (n[i]=='a','e','i','o','u',){
+        if (n[i]=='a','e','i','o','u'){
             count+=1;
         }
     }
