@@ -5,7 +5,7 @@ int main(){
     scanf("%s",n);
     int count=0;
     for (int i=0;i< strlen(n);i++){
-        if (n[i]=='a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U'){
+        if (n[i]=='a'||n[i]=='e'||n[i]=='i'||n[i]=='o'||n[i]=='u'||n[i]=='A'||n[i]=='E'||n[i]=='I'||n[i]=='O'||n[i]=='U'){
             count+=1;
         }
     }
