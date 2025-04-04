@@ -4,7 +4,7 @@ int main(){
     char n[100];
     int count=0;
     scanf("%s",&n);
-    for (i=0;i< lenstr(n);i++){
+    for (int i=0;i< lenstr(n);i++){
         if (n[i]=='a','e','i','o','u',){
             count+=1;
         }
